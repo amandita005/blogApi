@@ -24,6 +24,7 @@ videos.addEventListener("click", function(){
 backHome.addEventListener("click", function(){
   sectionBox.style.display = "block";
   moreView.style.display = "none";
+  containerVideos.style.display = "none"
 })
 
 buttons.forEach(button => {
@@ -32,6 +33,7 @@ buttons.forEach(button => {
     
     sectionBox.style.display = "none";
     moreView.style.display = "inline-block";
+    containerVideos.style.display = "none"
     const elemetoPai = button.parentElement; 
    
     textView.textContent = button.textContent;
