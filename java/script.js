@@ -12,15 +12,6 @@ const moreView = document.querySelector('#modal-view');
 const videos = document.querySelector('#videos');
 const containerVideos = document.querySelector('#links-dancas');
 
-
-videos.addEventListener("click", function(){
-  moreView.style.display = "none";
-  sectionBox.style.display = "none";
-  containerVideos.style.display = "inline"
-})
-
-
-
 backHome.addEventListener("click", function(){
   sectionBox.style.display = "block";
   moreView.style.display = "none";
